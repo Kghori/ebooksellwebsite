@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.7;
+    font-family: Calibri;
+    font-size: 1.1rem;
+    background-color: #f7f7f7;
+}
+
+/*================================================
+                    h1..h6 style
+==================================================*/
+h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #001733;
+    margin: 10% 0px;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    color: #080f23;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Bahnschrift;
+}
+
+/*================================================
+                    common style
+==================================================*/
+.validation-red {
+    color: #c02828;
+    font-size: 16px;
+}
+
+.validation-green {
+    color: #067932;
+    font-size: 16px;
+}
+
+.stronghold-heading .heading-subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+    display: -webkit-flex;
+    font-family: "Montserrat", sans-serif;
+    color: #2296f9;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.stronghold-heading .heading-sep-front,
+.stronghold-heading .heading-sep-back {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background: #dd3333;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+p {
+    color: #4e4e4e;
+}
+
+.titlename {
+    color: #001733;
+    text-align: center;
+    font-size: 2.85rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+#btn {
+    background-color: #126883;
+    color: white;
+    width: 110px;
+}
+
+#btn:hover {
+    background-color: #dd3333;
+    color: white;
+    width: 110px;
+}
+
+#cart-btn {
+    background-color: #126883;
+    color: white;
+    width: 140px;
+}
+
+.breadcrumb1 {
+    padding: 4% 0 0 3%;
+}
+
+/*================================================
+                    Navbar menu style
+==================================================*/
+
+.navbar {
+    background-color:#FDFEFE ;
+    padding: 10px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 15px;
+    font-family: Bahnschrift;
+    margin: 0px 8px;
+    color: rgb(43, 43, 43);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #0088ff;
+    transition: 0.4s ease;
+}
+
+.dropdown-menu {
+    border-style: none;
+    outline: none;
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 14px;
+    font-family: Bahnschrift;
+    color: rgb(43, 43, 43);
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item .active {
+    background-color: #0088ff;
+    color: white;
+}
+
+/*================================================
+                    Home style
+==================================================*/
+.header {
+    background:#ffdede ;
+    padding: 4% 0;
+}
+
+.strong {
+    color: #023b6d;
+}
+
+/*================================================
+                    Banner style
+==================================================*/
+#banner {
+    background-color: white;
+    padding-top: 10px;
+}
+
+.banner {
+    padding: 12px 28px;
+}
+
+/*================================================
+                About style
+==================================================*/
+#about,
+#services,#contact {
+    background-color: white;
+}
+
+/*================================================
+                    Services style
+==================================================*/
+.services .icon-box {
+    margin-bottom: 14px;
+    padding: 30px 40px;
+    background-color: white;
+    box-shadow: 4px 3px 15px rgba(138, 138, 138, 0.2);
+}
+
+.services .icon-box img {
+    float: left;
+    line-height: 0;
+    margin-top: 12px;
+    aspect-ratio: 2/2;
+    object-fit: contain;
+}
+
+.services .icon-box h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.services .icon-box h4 a {
+    color: #05579e;
+    transition: 0.3s;
+}
+
+.services .icon-box h4 a:hover {
+    color: #0880e8;
+}
+
+.services .icon-box p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+/*================================================
+                    Contact style
+==================================================*/
+.contact-ract
+{
+    padding: 30px 40px;
+    text-align: center;
+}
+.contact-header
+{
+    color: #05579e;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.contact-desc
+{
+    color: #001733;
+    font-size: 14px;
+}
+/*================================================
+                    Footer style
+==================================================*/
+.footer {
+    background-color: #080f23;
+}
+
+#footer {
+    padding: 3% 0 3% 0;
+}
+
+.footer-1 {
+    color: white;
+    font-family: Calibri;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 10%;
+    font-weight: 600;
+}
+
+.footer-2 {
+    font-family: Calibri;
+    color: #ced4da;
+    font-size: 16px;
+}
+
+.footer-2:hover {
+    color: white;
+}
+
+.nav-link {
+    color: #BDC3C7;
+    font-family: Calibri;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #0088ff;
+    transition: 0.5s ease;
+}
+
+.copyright {
+    color: #BDC3C7;
+    font-family: Calibri;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ftr {
+    background-color: #060a16;
+}
+
+/*================================================
+             sign up & sign in style
+==================================================*/
+.signuptitle1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+    text-align: center;
+    font-size: 15px;
+}
+
+.signuptitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #023b6d;
+    font-size: 22px;
+}
+
+#user {
+    font-family: dubai;
+    background-color: #f5f5f5;
+    padding: 8px;
+}
+
+#user:hover {
+    border-color: #05579e;
+}
+
+#signupbtn {
+    background-color: #023b6d;
+    color: white;
+    font-family: Calibri;
+    padding: 8px;
+}
+
+#signupbtn:hover {
+    background-color: #1B4F72;
+    color: white;
+}
+
+.signinmsg {
+    font-family: Calibri;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(72, 72, 72);
+}
+
+/*================================================
+                    Category style 
+==================================================*/
+.c-discount {
+    color: rgb(126, 126, 126);
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#category {
+    background-color: #ffff;
+    padding: 1px;
+}
+
+.card {
+    border-style: none;
+}
+
+.product1 {
+    height: 385px;
+    width: 180px;
+    margin-bottom: -8%;
+}
+
+.product1 img {
+    aspect-ratio: 2/2;
+    object-fit: contain;
+    width: 100%;
+    padding: 15% 16%;
+}
+
+.product1 img:hover {
+    transform: translateY(-5px);
+    transition: all ease-in-out 0.3s;
+}
+
+/*================================================
+                    Products style
+==================================================*/
+.product {
+    height: 385px;
+    width: 192px;
+}
+
+.product img {
+    aspect-ratio: 2/2;
+    object-fit: contain;
+    width: 100%;
+    padding: 14%;
+}
+
+.product img:hover {
+    transform: translateY(-5px);
+    transition: all ease-in-out 0.3s;
+}
+
+/*================================================
+                    Product font style
+==================================================*/
+.wrapper {
+    overflow-x: auto;
+    display: flex;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.company-name {
+    font-weight: 400;
+    font-size: 14px;
+    color: grey;
+}
+
+.p-name {
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+    font-family: Calibri;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.p-price {
+    color: rgb(41, 41, 41);
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 14px;
+}
+
+.p-mrp {
+    color: grey;
+    font-size: 14px;
+}
+
+.save {
+    color: rgb(12, 134, 12);
+    font-family: Calibri;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.product #p-btn {
+    background-color: #126883;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+    color: white;
+}
+
+.product:hover #p-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/*================================================
+                    Shop style
+==================================================*/
+.shop {
+    height: 395px;
+    width: 210px;
+    overflow: hidden;
+}
+
+.shop img {
+    height: 186px;
+    width: 100%;
+    padding: 10%;
+}
+
+.shop #p-btn {
+    background-color: #126883;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+    color: white;
+}
+
+.shop:hover #p-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/*================================================
+                products Information 
+==================================================*/
+.s-title {
+    font-size: 20px;
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+.c-name {
+    font-weight: 400;
+    font-size: 14px;
+    color: grey;
+}
+
+.s-price {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*================================================
+                    Add To Cart
+==================================================*/
+#cart {
+    box-shadow: 0px 0 25px 0 rgba(120, 120, 120, 0.2);
+}
+
+.c-price {
+    color: black;
+}
+
+.card-title {
+    font-weight: 600;
+    color: rgb(29, 111, 40);
+    font-size: 15px;
+    font-family: Calibri;
+}
+
+.card-text {
+    font-size: 14px;
+    font-family: Calibri;
+    font-weight: 600;
+    color: rgb(57, 57, 57);
+}
+
+.cart-img {
+    width: 100px;
+    height: 100px;
+}
+
+.card-header {
+    color: rgb(46, 46, 46);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Calibri;
+}
+
+.empty {
+    text-align: center;
+    font-size: 16px;
+}
+.stronghold-heading1 .heading-subtitle1 {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+    display: -webkit-flex;
+    font-family: "Montserrat", sans-serif;
+    color: #071826;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.stronghold-heading1 .heading-sep-front1,
+.stronghold-heading1 .heading-sep-back1 {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background: #dd3333;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/*================================================
+                    Fontawsome icon style
+==================================================*/
+.fa-sharp .fa-solid .fa-circle-check {
+    color: #ffffff;
+}
+
+.fa-sharp .fa-solid .fa-triangle-exclamation {
+    color: #ffffff;
+}
+
+.fa-sharp .fa-solid .fa-cart-shopping {
+    color: #0088ff;
+}
+
+.fa-sharp .fa-solid .fa-xmark-large {
+    color: white;
+}
+
+/*================================================
+                    Checkout
+==================================================*/
+.checkout-header {
+    font-size: 14px;
+    font-family: Calibri;
+    color: rgb(57, 57, 57);
+}
+
+.checkout-title {
+    font-size: 15px;
+    font-family: dubai;
+    color: rgb(87, 87, 87);
+}
+
+/*================================================
+                Order style & table style
+==================================================*/
+.table-header {
+    font-size: 16px;
+    font-family: Calibri;
+    color: white;
+    background-color: #126883;
+}
+/*================================================
+                    Bill style
+==================================================*/
+.bill-text {
+    font-size: 14px;
+    font-family: Calibri;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+}
+
+.storename {
+    font-size: 18px;
+    font-family: Calibri;
+    font-weight: 700;
+    color: rgb(41, 41, 41);
+}
+
+.bill-header {
+    color: rgb(220, 49, 49);
+    font-size: 14px;
+}
+/*================================================
+                Profile style
+==================================================*/
+.profile-header
+{
+    font-family: dubai;
+    font-size: 16px;
+    color: grey;
+}
+.profile-text
+{
+    margin-bottom: 10px;
+    font-family: dubai;
+    font-size: 17px;
+}
